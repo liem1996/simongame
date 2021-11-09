@@ -1,0 +1,50 @@
+body{
+  background-color: #BECFE8;
+  text-align: center;
+}
+
+h1, h2, h4{
+  font-family: 'Lato', sans-serif;
+  font-family: 'VT323', monospace;
+  color: gray;
+  text-shadow: 1px 2px black;
+}
+
+h1{
+  font-size: 65px ;
+}
+
+.container{
+  margin-top: 50px;
+  display: block;
+}
+
+.btn{
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 6px solid black;
+  border-radius: 20%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
