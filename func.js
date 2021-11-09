@@ -42,13 +42,12 @@ $(".btn").click(function(){
 
         CountButtonClicks++;
 
-        if(gameChoose[CountButtonClicks-1] !== userChoose[CountButtonClicks-1])
-        {
-            wrong();
-        }
-
         if (CountButtonClicks === gameChoose.length){
             checkAnswer();
+        }
+        else if (gameChoose[CountButtonClicks-1] !== userChoose[CountButtonClicks-1])
+        {
+            wrong();
         }
 
   });
@@ -100,4 +99,5 @@ counter = 0;
 gameChoose = [];
 userChoose = [];
 CountButtonClicks = 0;
+
 }
