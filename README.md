@@ -1,3 +1,5 @@
+<img src="simonn.png" width="120" height="120">
+
 # Simon Game
 Simon game - written in css, HTML, and js using jQuery.
 
